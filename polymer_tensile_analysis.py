@@ -13,7 +13,7 @@ import mpl_toolkits.axisartist as AA
 
 
 
-data = pd.read_excel ("GRAFICA-TENSILE.xlsx",sheet_name = "Sheet1")
+data = pd.read_excel ("polymer_tensile_data.xlsx",sheet_name = "Sheet1")
 
 x1 = data["PVA"]
 y1 = data["E"]
